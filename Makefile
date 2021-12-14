@@ -6,5 +6,5 @@ get:
 	go get ./...
 test:
 	go test ./...
-upgrade:
+deps:
 	go list -m -u all
