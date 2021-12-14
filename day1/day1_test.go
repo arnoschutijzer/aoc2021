@@ -15,5 +15,5 @@ func Test_Day1ExampleHas7Increases(t *testing.T) {
 func Test_Part1(t *testing.T) {
 	reports := ReadReports("./fixtures/part1.txt")
 	increases := CalculateIncreases(reports)
-	assert.Equal(t, 0, increases)
+	assert.Equal(t, 1390, increases)
 }
